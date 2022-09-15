@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>
+            PROJECT MANAGEMENT
+        </title>
+        <style>
+        .button{
+            background-color:gold;
+            color:gainsboro;
+        }
+        </style>
+    </head>
+    <body>
+        <form>
+            
+        <table  align="center" bgcolor="#00ffff" cellspacing="30" > 
+        <H1 align="center">PROJECT MANAGEMENT</H1>
+       <tr><td>Project name</td><td><input type="text" placeholder="project-name"></td></tr>
+       <tr><td>Assign to</td><td>
+        <select>
+            <option disabled selected hiden>Select</option>
+            <OPtion>ANIL</OPtion>
+            <OPtion>AJAY</OPtion>
+            <OPtion>THARUN</OPtion>
+            <OPtion>HARI</OPtion>
+            <OPtion>ALTHAF</OPtion>
+            <OPtion>DHANUSH</OPtion>
+        </select></td></tr>
+        <tr><td>Start Date</td><td><input type="date"></td></tr>
+        <tr><td>End Date</td><td><input type="date"></td></tr>
+        <tr><td>Priority</td><td><input type="radio">HIGH<input type="radio">AVERAGE<input type="radio">LOW</td></tr>
+        <tr><td>Project Type</td><td><input type="checkbox">Simple<input type="checkbox">Stand Alone<input type="checkbox">Web Based<input type="checkbox">Mobile App</td></tr>
+        <tr><td>Description</td><td><textarea name="give your comments" cols="30" rows="5"></textarea></td></tr>
+        <tr><td colspan="0" align="center"><input type="SUBMIT"></td><td colspan="3"><input type="reset"></td></td></tr>
+        </table>
+    </body>
+</html>
